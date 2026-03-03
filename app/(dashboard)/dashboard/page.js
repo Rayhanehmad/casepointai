@@ -21,11 +21,26 @@ export default function DashboardPage() {
   const [loading, setLoading] = useState(true);
 
   const journals = [
-    { id: 'pld', name: 'Pakistan Legal Decisions', abbr: 'PLD' },
+    { id: 'pld', name: 'Pakistan Law Decisions', abbr: 'PLD' },
     { id: 'scmr', name: 'Supreme Court Monthly Review', abbr: 'SCMR' },
+    { id: 'mld', name: 'Monthly Law Digest', abbr: 'MLD' },
     { id: 'clc', name: 'Civil Law Cases', abbr: 'CLC' },
-    { id: 'pcrlj', name: 'Pakistan Criminal Law Journal', abbr: 'PCrLJ' },
+    { id: 'ylr', name: 'Yearly Law Reporter', abbr: 'YLR' },
+    { id: 'pcrlj', name: 'Pakistan Criminal Law Journal', abbr: 'PCRLJ' },
     { id: 'ptd', name: 'Pakistan Tax Decisions', abbr: 'PTD' },
+    { id: 'ptcl', name: 'Pakistan Tax Corporate Law Reports', abbr: 'PTCL' },
+    { id: 'plc', name: 'Pakistan Labour Cases', abbr: 'PLC' },
+    { id: 'cld', name: 'Corporate Law Decisions', abbr: 'CLD' },
+    { id: 'blr', name: 'Banking Law Reports', abbr: 'BLR' },
+    { id: 'plj', name: 'Pakistan Law Journal', abbr: 'PLJ' },
+    { id: 'ald', name: 'All Law Decisions', abbr: 'ALD' },
+    { id: 'nlr', name: 'National Law Reports', abbr: 'NLR' },
+    { id: 'lhc', name: 'Lahore High Court Reports', abbr: 'LHC' },
+    { id: 'shc', name: 'Sindh High Court Reports', abbr: 'SHC' },
+    { id: 'ihc', name: 'Islamabad High Court Reports', abbr: 'IHC' },
+    { id: 'pesh', name: 'Peshawar High Court', abbr: 'Pesh.' },
+    { id: 'kar', name: 'Karachi (Bench / Registry reference)', abbr: 'Kar.' },
+
   ];
 
   useEffect(() => {
