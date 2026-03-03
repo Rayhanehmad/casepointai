@@ -21,7 +21,7 @@ export default function DashboardPage() {
   const [loading, setLoading] = useState(true);
 
   const journals = [
-    { id: 'pld', name: 'Pakistan Law Decisions', abbr: 'PLD' },
+    { id: 'pld', name: 'Pakistan Legal Decisions', abbr: 'PLD' },
     { id: 'scmr', name: 'Supreme Court Monthly Review', abbr: 'SCMR' },
     { id: 'mld', name: 'Monthly Law Digest', abbr: 'MLD' },
     { id: 'clc', name: 'Civil Law Cases', abbr: 'CLC' },
